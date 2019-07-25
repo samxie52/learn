@@ -1,4 +1,4 @@
-package com.sam52.factory.simple;
+package com.sam52.factory.simplefactory;
 
 public class Dog implements IPet {
     @Override

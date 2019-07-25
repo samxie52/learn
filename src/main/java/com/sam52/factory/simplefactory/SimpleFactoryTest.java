@@ -1,11 +1,11 @@
-package com.sam52.factory.simple;
+package com.sam52.factory.simplefactory;
 
 public class SimpleFactoryTest {
     public static void main(String[] args) {
         SimpleFactory simpleFactory = new SimpleFactory();
         IPet pet = null;
         try {
-            pet = simpleFactory.createPet("com.sam52.factory.simple.Dog");
+            pet = simpleFactory.createPet("com.sam52.factory.simplefactory.Dog");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

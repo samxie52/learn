@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.sam52.factory.simplefactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="230.0">com.sam52.factory.simplefactory.SimpleFactory</node>
+    <node x="0.0" y="155.0">com.sam52.factory.simplefactory.SimpleFactoryTest</node>
+    <node x="92.0" y="80.0">com.sam52.factory.simplefactory.Cat</node>
+    <node x="0.0" y="80.0">com.sam52.factory.simplefactory.Dog</node>
+    <node x="45.75" y="0.0">com.sam52.factory.simplefactory.IPet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sam52.factory.simplefactory.Cat" target="com.sam52.factory.simplefactory.IPet">
+      <point x="0.0" y="-15.0" />
+      <point x="125.5" y="55.0" />
+      <point x="98.25" y="55.0" />
+      <point x="17.5" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.simplefactory.Dog" target="com.sam52.factory.simplefactory.IPet">
+      <point x="0.0" y="-15.0" />
+      <point x="36.0" y="55.0" />
+      <point x="63.25" y="55.0" />
+      <point x="-17.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="79.5" y="130.0" />
+  <SelectedNodes>
+    <node>com.sam52.factory.simplefactory.SimpleFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
