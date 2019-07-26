@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.sam52.factory.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="7.499999999999943" y="136.0">com.sam52.factory.abstractfactory.AdaShoe</node>
+    <node x="128.99999999999994" y="-7.0">com.sam52.factory.abstractfactory.IShirt</node>
+    <node x="448.5" y="136.0">com.sam52.factory.abstractfactory.NikeShoe</node>
+    <node x="-110.5" y="136.0">com.sam52.factory.abstractfactory.AdaShirt</node>
+    <node x="128.49999999999994" y="113.0">com.sam52.factory.abstractfactory.IWearFactory</node>
+    <node x="297.49999999999994" y="239.0">com.sam52.factory.abstractfactory.NikeWearFactory</node>
+    <node x="327.49999999999994" y="136.0">com.sam52.factory.abstractfactory.NikeShirt</node>
+    <node x="-43.87666666666672" y="239.0">com.sam52.factory.abstractfactory.AdaWearFactory</node>
+    <node x="45.87333333333325" y="365.0">com.sam52.factory.abstractfactory.AbstractFactoryTest</node>
+    <node x="226.99999999999994" y="-7.0">com.sam52.factory.abstractfactory.IShoe</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sam52.factory.abstractfactory.NikeWearFactory" target="com.sam52.factory.abstractfactory.IShoe">
+      <point x="71.19999999999999" y="-38.0" />
+      <point x="457.69999999999993" y="219.0" />
+      <point x="563.0" y="219.0" />
+      <point x="563.0" y="43.0" />
+      <point x="298.99999999999994" y="43.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.NikeShoe" target="com.sam52.factory.abstractfactory.IShoe">
+      <point x="0.0" y="-15.0" />
+      <point x="500.5" y="53.0" />
+      <point x="282.99999999999994" y="53.0" />
+      <point x="16.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaWearFactory" target="com.sam52.factory.abstractfactory.AdaShoe">
+      <point x="0.0" y="-38.0" />
+      <point x="45.12333333333328" y="219.0" />
+      <point x="57.49999999999994" y="219.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AbstractFactoryTest" target="com.sam52.factory.abstractfactory.AdaWearFactory">
+      <point x="-44.0" y="-26.5" />
+      <point x="89.87333333333325" y="340.0" />
+      <point x="45.12333333333328" y="340.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.NikeShirt" target="com.sam52.factory.abstractfactory.IShirt">
+      <point x="0.0" y="-15.0" />
+      <point x="377.99999999999994" y="63.0" />
+      <point x="199.19999999999993" y="63.0" />
+      <point x="31.19999999999999" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.IWearFactory" target="com.sam52.factory.abstractfactory.IShirt">
+      <point x="-44.5" y="-38.0" />
+      <point x="172.99999999999994" y="73.0" />
+      <point x="167.99999999999994" y="73.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaShoe" target="com.sam52.factory.abstractfactory.IShoe">
+      <point x="0.0" y="-15.0" />
+      <point x="57.49999999999994" y="83.0" />
+      <point x="234.99999999999994" y="83.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.NikeWearFactory" target="com.sam52.factory.abstractfactory.NikeShirt">
+      <point x="-5.6843418860808015E-14" y="-38.0" />
+      <point x="386.4999999999999" y="219.0" />
+      <point x="377.99999999999994" y="219.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AbstractFactoryTest" target="com.sam52.factory.abstractfactory.IWearFactory">
+      <point x="44.0" y="-26.5" />
+      <point x="177.87333333333322" y="340.0" />
+      <point x="217.49999999999994" y="340.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.IWearFactory" target="com.sam52.factory.abstractfactory.IShoe">
+      <point x="44.5" y="-38.0" />
+      <point x="261.99999999999994" y="93.0" />
+      <point x="266.99999999999994" y="93.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaWearFactory" target="com.sam52.factory.abstractfactory.IShoe">
+      <point x="35.60000000000002" y="-38.0" />
+      <point x="80.7233333333333" y="209.0" />
+      <point x="117.99999999999994" y="209.0" />
+      <point x="117.99999999999994" y="93.0" />
+      <point x="250.99999999999994" y="93.0" />
+      <point x="-16.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaWearFactory" target="com.sam52.factory.abstractfactory.IShirt">
+      <point x="-71.19999999999999" y="-38.0" />
+      <point x="-26.07666666666671" y="219.0" />
+      <point x="-121.0" y="219.0" />
+      <point x="-121.0" y="63.0" />
+      <point x="136.79999999999995" y="63.0" />
+      <point x="-31.19999999999999" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.NikeWearFactory" target="com.sam52.factory.abstractfactory.IWearFactory">
+      <point x="-71.20000000000005" y="-38.0" />
+      <point x="315.2999999999999" y="219.0" />
+      <point x="276.8333333333333" y="219.0" />
+      <point x="59.33333333333337" y="38.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaWearFactory" target="com.sam52.factory.abstractfactory.IWearFactory">
+      <point x="71.19999999999999" y="-38.0" />
+      <point x="116.32333333333327" y="219.0" />
+      <point x="158.16666666666663" y="219.0" />
+      <point x="-59.333333333333314" y="38.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.NikeWearFactory" target="com.sam52.factory.abstractfactory.IShirt">
+      <point x="-35.60000000000002" y="-38.0" />
+      <point x="350.8999999999999" y="209.0" />
+      <point x="316.99999999999994" y="209.0" />
+      <point x="316.99999999999994" y="73.0" />
+      <point x="183.59999999999997" y="73.0" />
+      <point x="15.600000000000023" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.NikeWearFactory" target="com.sam52.factory.abstractfactory.NikeShoe">
+      <point x="35.599999999999966" y="-38.0" />
+      <point x="422.0999999999999" y="209.0" />
+      <point x="500.5" y="209.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaShirt" target="com.sam52.factory.abstractfactory.IShirt">
+      <point x="0.0" y="-15.0" />
+      <point x="-61.5" y="73.0" />
+      <point x="152.39999999999992" y="73.0" />
+      <point x="-15.600000000000023" y="15.0" />
+    </edge>
+    <edge source="com.sam52.factory.abstractfactory.AdaWearFactory" target="com.sam52.factory.abstractfactory.AdaShirt">
+      <point x="-35.59999999999998" y="-38.0" />
+      <point x="9.523333333333312" y="209.0" />
+      <point x="-61.5" y="209.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="214.5" y="210.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
