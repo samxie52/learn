@@ -1,4 +1,4 @@
-package com.sam52.factory.simplefactory;
+package com.sam52.factory;
 
 public interface IPet {
     void smile();

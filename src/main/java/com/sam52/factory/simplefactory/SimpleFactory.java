@@ -1,5 +1,7 @@
 package com.sam52.factory.simplefactory;
 
+import com.sam52.factory.IPet;
+
 public class SimpleFactory {
 
 //    public IPet createPet(String name) {

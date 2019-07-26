@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.sam52.factory.factorymethod</OriginalElement>
+  <nodes>
+    <node x="-55.00000000000003" y="107.0">com.sam52.factory.factorymethod.IPetFactory</node>
+    <node x="103.0" y="107.0">com.sam52.factory.Cat</node>
+    <node x="14.652777777777715" y="-6.0">com.sam52.factory.IPet</node>
+    <node x="-211.0" y="107.0">com.sam52.factory.Dog</node>
+    <node x="-150.50000000000003" y="210.0">com.sam52.factory.factorymethod.DogFactory</node>
+    <node x="107.40277777777771" y="210.0">com.sam52.factory.factorymethod.CatFactory</node>
+    <node x="-72.84722222222223" y="313.0">com.sam52.factory.factorymethod.FactoryMethodTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sam52.factory.factorymethod.CatFactory" target="com.sam52.factory.IPet">
+      <point x="45.999999999999986" y="-26.5" />
+      <point x="222.40277777777771" y="185.0" />
+      <point x="248.5" y="185.0" />
+      <point x="248.5" y="77.0" />
+      <point x="115.90277777777771" y="77.0" />
+      <point x="33.75" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.FactoryMethodTest" target="com.sam52.factory.factorymethod.IPetFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="15.152777777777771" y="288.0" />
+      <point x="13.999999999999972" y="288.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.CatFactory" target="com.sam52.factory.Cat">
+      <point x="0.0" y="-26.5" />
+      <point x="176.40277777777771" y="185.0" />
+      <point x="170.5" y="185.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.FactoryMethodTest" target="com.sam52.factory.IPet">
+      <point x="58.666666666666686" y="-26.5" />
+      <point x="73.81944444444446" y="288.0" />
+      <point x="260.6527777777777" y="288.0" />
+      <point x="260.6527777777777" y="67.0" />
+      <point x="138.40277777777771" y="67.0" />
+      <point x="56.25" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.DogFactory" target="com.sam52.factory.factorymethod.IPetFactory">
+      <point x="46.0" y="-26.5" />
+      <point x="-35.50000000000003" y="185.0" />
+      <point x="-32.00000000000003" y="185.0" />
+      <point x="-46.0" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.Cat" target="com.sam52.factory.IPet">
+      <point x="0.0" y="-26.5" />
+      <point x="170.5" y="87.0" />
+      <point x="93.40277777777771" y="87.0" />
+      <point x="11.25" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.IPetFactory" target="com.sam52.factory.IPet">
+      <point x="0.0" y="-26.5" />
+      <point x="13.999999999999972" y="87.0" />
+      <point x="70.90277777777771" y="87.0" />
+      <point x="-11.25" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.CatFactory" target="com.sam52.factory.factorymethod.IPetFactory">
+      <point x="-46.0" y="-26.5" />
+      <point x="130.40277777777771" y="185.0" />
+      <point x="60.0" y="185.0" />
+      <point x="46.0" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.DogFactory" target="com.sam52.factory.IPet">
+      <point x="0.0" y="-26.5" />
+      <point x="-81.50000000000003" y="185.0" />
+      <point x="-65.50000000000003" y="185.0" />
+      <point x="-65.50000000000003" y="77.0" />
+      <point x="48.402777777777715" y="77.0" />
+      <point x="-33.75" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.DogFactory" target="com.sam52.factory.Dog">
+      <point x="-46.0" y="-26.5" />
+      <point x="-127.50000000000003" y="185.0" />
+      <point x="-143.5" y="185.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.factorymethod.FactoryMethodTest" target="com.sam52.factory.factorymethod.DogFactory">
+      <point x="-58.66666666666666" y="-26.5" />
+      <point x="-43.513888888888886" y="288.0" />
+      <point x="-81.50000000000003" y="288.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.sam52.factory.Dog" target="com.sam52.factory.IPet">
+      <point x="0.0" y="-26.5" />
+      <point x="-143.5" y="67.0" />
+      <point x="25.902777777777715" y="67.0" />
+      <point x="-56.25" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="123.0" y="181.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
